@@ -1,0 +1,9 @@
+road_reflector_detector_node:
+  ros__parameters:
+    lidar_topic: "/lidar_points"
+    yolo_topic: "/yolo_result"
+    camera_info_topic: "/camera_info"
+    roi_cloud_topic: "/roi_pointcloud"
+    reflector_poses_topic: "/reflector_poses"
+    reflector_markers_topic: "/reflector_markers"
+    reflector_class_id: "reflector"
